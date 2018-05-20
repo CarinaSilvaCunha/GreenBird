@@ -101,12 +101,19 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Main Image Slider ViewPager | id mainImgSlider-->
-    <style name="mainImgSlider">
+    <!-- Main Image Slider ViewPager | id mainFrameSlider-->
+    <style name="mainFrameSlider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeightImages</item>
-        <item name="android:paddingTop">@dimen/mainImgSliderPadding</item>
+        <item name="android:paddingTop">@dimen/mainFrameSliderPadding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Main Image Slider ViewPager | id mainImgSlider-->
+    <style name="mainImgSlider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
     </style>
 
 

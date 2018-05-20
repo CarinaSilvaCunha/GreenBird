@@ -1,4 +1,5 @@
 // Code was based on http://www.thetechnologyupdates.com/tutorial-to-swipe-images-in-android-application/, but altered
+// updated code and added arrows
 
 package com.example.android.greenbird;
 import android.content.Context;
@@ -44,5 +45,6 @@ public class ImageAdapter extends PagerAdapter {
     public void destroyItem(ViewGroup container, int position, Object object) {
         (container).removeView((ImageView) object);
     }
+
 
 }

@@ -46,8 +46,38 @@
 
     </LinearLayout>
 
-    <android.support.v4.view.ViewPager
-        android:id="@id/mainImgSlider"
-        style="@style/mainImgSlider" />
+    <FrameLayout style="@style/mainFrameSlider">
+
+        <android.support.v4.view.ViewPager
+            android:id="@id/mainImgSlider"
+            style="@style/mainImgSlider" />
+
+        <ImageButton
+            android:id="@id/mainSliderRightArrow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+            android:onClick="ArrowClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightsliderarrow"
+            android:tag="ViewPager.FOCUS_RIGHT" />
+
+        <ImageButton
+            android:id="@id/mainSliderLeftArrow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="5dp"
+            android:background="#00000000"
+            android:onClick="ArrowClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/leftsliderarrow"
+            android:tag="ViewPager.FOCUS_LEFT" />
+
+
+    </FrameLayout>
+
 
 </LinearLayout>

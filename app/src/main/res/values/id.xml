@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="mainLayout" />
-    <item type="id" name="mainImgLogo" />
-    <item type="id" name="mainBusinessDescriptionText" />
-    <item type="id" name="mainCompanyText" />
-    <item type="id" name="mainCompanyNameText" />
-    <item type="id" name="mainFacebookIcon" />
-    <item type="id" name="mainFacebookText" />
-    <item type="id" name="mainMessengerIcon" />
-    <item type="id" name="mainMessengerText" />
-    <item type="id" name="mainImgSlider" />
+    <item name="mainLayout" type="id" />
+    <item name="mainImgLogo" type="id" />
+    <item name="mainBusinessDescriptionText" type="id" />
+    <item name="mainCompanyText" type="id" />
+    <item name="mainCompanyNameText" type="id" />
+    <item name="mainFacebookIcon" type="id" />
+    <item name="mainFacebookText" type="id" />
+    <item name="mainMessengerIcon" type="id" />
+    <item name="mainMessengerText" type="id" />
+    <item name="mainImgSlider" type="id" />
+    <item name="mainSliderRightArrow" type="id" />
+    <item name="mainSliderLeftArrow" type="id" />
 
 </resources>

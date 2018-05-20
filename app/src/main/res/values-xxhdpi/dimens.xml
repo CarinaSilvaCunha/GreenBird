@@ -26,7 +26,7 @@
     <!-- Main Horizontal Layout TextView | id: mainFacebookTextView and mainMessengerTextView -->
     <dimen name="mainHorizontalLinkTextSize">18sp</dimen>
 
-    <!-- Main Slider View | id: mainImgSlider -->
-    <dimen name="mainImgSliderPadding">5dp</dimen>
+    <!-- Main Slider View | id: mainFrameSlider -->
+    <dimen name="mainFrameSliderPadding">5dp</dimen>
 
 </resources>
