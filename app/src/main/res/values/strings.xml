@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GreenBird</string>
+    <string name="mainFlavorText">Coisinhas fofas totalmente feitas à mão</string>
+    <string name="mainFacebookLink">facebook.com/GreenBirdCreations</string>
+    <string name="mainCompanyNameText">Green Bird</string>
+    <string name="mainMessengerLink">\@GreenBirdCreations</string>
 </resources>

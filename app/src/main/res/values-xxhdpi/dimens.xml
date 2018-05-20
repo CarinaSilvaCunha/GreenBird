@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimensions for the Main Layout Weight-->
+    <dimen name="mainLayoutWeight">1</dimen>
+
+    <!--Dimensions for the main logo -->
+    <dimen name="mainLayoutWeightLogo">2</dimen>
+
+    <!--Dimensions for the images logo -->
+    <dimen name="mainLayoutWeightImages">4</dimen>
+
+    <!--Dimensions for the Main Layout Links Horizontal Weight-->
+    <dimen name="mainLinksHorizontalWeight">4</dimen>
+
+
+    <!-- Main Flavor Text TextView | id: mainFlavorText -->
+    <dimen name="mainFlavorTextSize">20sp</dimen>
+
+    <!-- Main Company Text TextView | id: mainCompanyNameText -->
+    <dimen name="mainCompanyNameText">40sp</dimen>
+    <dimen name="mainCompanyNameTextMargin">14dp</dimen>
+
+    <!-- Main Horizontal Layout ImageView | id: mainFacebookImageView and mainMessengerImageView -->
+    <dimen name="mainHorizontalIconPadding">10dp</dimen>
+
+    <!-- Main Horizontal Layout TextView | id: mainFacebookTextView and mainMessengerTextView -->
+    <dimen name="mainHorizontalLinkTextSize">18sp</dimen>
+
+    <!-- Main Horizontal Layout TextView | id: mainFacebookTextView and mainMessengerTextView -->
+    <dimen name="mainImgSliderPadding">5dp</dimen>
+
+</resources>

@@ -1,11 +1,115 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <!-- Set the primary layout for the app -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!-- Main Layout -->
+    <style name="mainLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/mainBackgroundColor</item>
+    </style>
+
+    <!-- Main Image Logo ImageView -->
+    <style name="mainImgLogo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeightLogo</item>
+        <item name="android:src">@drawable/greenbirdlogo</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+
+    <!-- Main Flavor Text TextView | id mainFlavorText -->
+    <style name="mainFlavorText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
+        <item name="android:background">@color/mainFlavorTextBG</item>
+        <item name="android:text">@string/mainFlavorText</item>
+        <item name="android:fontFamily">@font/eraslght</item>
+        <item name="android:textSize">@dimen/mainFlavorTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mainFlavorText</item>
+    </style>
+
+    <!-- Main Company Name: Green Bird TextView -->
+    <style name="mainCompanyNameText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
+        <item name="android:text">@string/mainCompanyNameText</item>
+        <item name="android:fontFamily">@font/eraslght</item>
+        <item name="android:textSize">@dimen/mainCompanyNameText</item>
+        <item name="android:textColor">@color/mainCompanyNameText</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/mainCompanyNameTextMargin</item>
+    </style>
+
+    <!-- Main Horizontal Layouts -->
+    <style name="mainHorizontalLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Main Facebook icon ImageView -->
+    <style name="mainFacebookImageView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/mainHorizontalIconPadding</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
+        <item name="android:src">@drawable/facebookicon</item>
+    </style>
+
+    <!-- Main Messenger icon ImageView -->
+    <style name="mainMessengerImageView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/mainHorizontalIconPadding</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
+        <item name="android:src">@drawable/messengericon</item>
+    </style>
+
+    <!-- Main Horizontal TextView | id mainFacebookTextView-->
+    <style name="mainFacebookTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@dimen/mainLinksHorizontalWeight</item>
+        <item name="android:text">@string/mainFacebookLink</item>
+        <item name="android:fontFamily">@font/eraslght</item>
+        <item name="android:textSize">@dimen/mainHorizontalLinkTextSize</item>
+        <item name="android:textColor">@color/mainCompanyNameText</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Main Horizontal TextView  | id mainMessengerTextView-->
+    <style name="mainMessengerTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@dimen/mainLinksHorizontalWeight</item>
+        <item name="android:text">@string/mainMessengerLink</item>
+        <item name="android:fontFamily">@font/eraslght</item>
+        <item name="android:textSize">@dimen/mainHorizontalLinkTextSize</item>
+        <item name="android:textColor">@color/mainCompanyNameText</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Main Image Slider ImageView | id mainImgSlider-->
+    <style name="mainImgSlider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/mainLayoutWeightImages</item>
+        <item name="android:paddingTop">@dimen/mainImgSliderPadding</item>
+        <item name="android:src">@drawable/imgslider1</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
 
 </resources>

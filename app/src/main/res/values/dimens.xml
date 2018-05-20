@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="mainLayoutWeight">1</dimen>
+	<dimen name="mainLayoutWeightLogo">2</dimen>
+	<dimen name="mainLayoutWeightImages">4</dimen>
+	<dimen name="mainLinksHorizontalWeight">4</dimen>
+	<dimen name="mainFlavorTextSize">6.7sp</dimen>
+	<dimen name="mainCompanyNameText">13.3sp</dimen>
+	<dimen name="mainCompanyNameTextMargin">5.8dp</dimen>
+	<dimen name="mainHorizontalIconPadding">4.2dp</dimen>
+	<dimen name="mainHorizontalLinkTextSize">6sp</dimen>
+</resources>

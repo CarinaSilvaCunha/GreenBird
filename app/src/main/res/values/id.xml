@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainLayout" />
+    <item type="id" name="mainImgLogo" />
+    <item type="id" name="mainFlavorText" />
+    <item type="id" name="mainCompanyNameText" />
+    <item type="id" name="mainFacebookIcon" />
+    <item type="id" name="mainFacebookText" />
+    <item type="id" name="mainMessengerIcon" />
+    <item type="id" name="mainMessengerText" />
+    <item type="id" name="mainImgSlider" />
+
+</resources>
