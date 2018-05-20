@@ -7,18 +7,17 @@
 
     <ImageView
         android:id="@id/mainImgLogo"
-        style="@style/mainImgLogo"/>
+        style="@style/mainImgLogo" />
 
     <TextView
-        android:id="@id/mainFlavorText"
-        style="@style/mainFlavorText"/>
+        android:id="@id/mainBusinessDescriptionText"
+        style="@style/mainBusinessDescriptionText" />
 
     <TextView
-        android:id="@id/mainCompanyNameText"
+        android:id="@id/mainCompanyText"
         style="@style/mainCompanyNameText" />
 
-    <LinearLayout
-        style="@style/mainHorizontalLayout">
+    <LinearLayout style="@style/mainHorizontalLayout">
 
         <ImageView
             android:id="@id/mainFacebookIcon"
@@ -26,25 +25,28 @@
 
         <TextView
             android:id="@id/mainCompanyNameText"
-            style="@style/mainFacebookTextView" />
+            style="@style/mainFacebookTextView"
+            android:onClick="onLinkClick"
+            android:tag="http://www.facebook.com/GreenBirdCreations" />
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/mainHorizontalLayout">
+    <LinearLayout style="@style/mainHorizontalLayout">
 
         <ImageView
             android:id="@id/mainMessengerIcon"
-            style="@style/mainFacebookImageView" />
+            style="@style/mainMessengerImageView" />
 
         <TextView
             android:id="@id/mainMessengerText"
             style="@style/mainMessengerTextView"
+            android:onClick="onMessengerClick"
+            android:tag="fb-messenger://user/"
             android:text="@string/mainMessengerLink" />
 
     </LinearLayout>
 
-    <ImageView
+    <android.support.v4.view.ViewPager
         android:id="@id/mainImgSlider"
         style="@style/mainImgSlider" />
 

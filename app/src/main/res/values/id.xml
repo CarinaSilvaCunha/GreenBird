@@ -2,7 +2,8 @@
 <resources>
     <item type="id" name="mainLayout" />
     <item type="id" name="mainImgLogo" />
-    <item type="id" name="mainFlavorText" />
+    <item type="id" name="mainBusinessDescriptionText" />
+    <item type="id" name="mainCompanyText" />
     <item type="id" name="mainCompanyNameText" />
     <item type="id" name="mainFacebookIcon" />
     <item type="id" name="mainFacebookText" />

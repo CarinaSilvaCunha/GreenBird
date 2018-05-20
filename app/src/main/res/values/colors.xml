@@ -10,9 +10,9 @@
     <!-- Main Activity Layout Colors -->
     <color name="mainBackgroundColor">#fff</color>
 
-    <!-- Main Flavor Text Colors | id mainFlavorText -->
-    <color name="mainFlavorTextBG">#aed47b</color>
-    <color name="mainFlavorText">#ffffff</color>
+    <!-- Main Business Description Text Colors | id mainBusinessDescription -->
+    <color name="mainBusinessDescriptionTextBG">#aed47b</color>
+    <color name="mainBusinessDescriptionText">#ffffff</color>
 
     <!-- Main Company Name Text Colors | id mainCompanyNameText -->
     <color name="mainCompanyNameText">#aed47b</color>

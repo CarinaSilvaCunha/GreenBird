@@ -13,8 +13,8 @@
     <dimen name="mainLinksHorizontalWeight">4</dimen>
 
 
-    <!-- Main Flavor Text TextView | id: mainFlavorText -->
-    <dimen name="mainFlavorTextSize">20sp</dimen>
+    <!-- Main Business Description Text TextView | id: mainBusinessDescription -->
+    <dimen name="mainBusinessDescriptionSize">20sp</dimen>
 
     <!-- Main Company Text TextView | id: mainCompanyNameText -->
     <dimen name="mainCompanyNameText">40sp</dimen>
@@ -26,7 +26,7 @@
     <!-- Main Horizontal Layout TextView | id: mainFacebookTextView and mainMessengerTextView -->
     <dimen name="mainHorizontalLinkTextSize">18sp</dimen>
 
-    <!-- Main Horizontal Layout TextView | id: mainFacebookTextView and mainMessengerTextView -->
+    <!-- Main Slider View | id: mainImgSlider -->
     <dimen name="mainImgSliderPadding">5dp</dimen>
 
 </resources>

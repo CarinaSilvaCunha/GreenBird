@@ -24,17 +24,17 @@
 
     </style>
 
-    <!-- Main Flavor Text TextView | id mainFlavorText -->
-    <style name="mainFlavorText">
+    <!-- Main Business Description Text TextView | id mainBusinessDescription -->
+    <style name="mainBusinessDescriptionText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
-        <item name="android:background">@color/mainFlavorTextBG</item>
-        <item name="android:text">@string/mainFlavorText</item>
+        <item name="android:background">@color/mainBusinessDescriptionTextBG</item>
+        <item name="android:text">@string/mainBusinessDescription</item>
         <item name="android:fontFamily">@font/eraslght</item>
-        <item name="android:textSize">@dimen/mainFlavorTextSize</item>
+        <item name="android:textSize">@dimen/mainBusinessDescriptionSize</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/mainFlavorText</item>
+        <item name="android:textColor">@color/mainBusinessDescriptionText</item>
     </style>
 
     <!-- Main Company Name: Green Bird TextView -->
@@ -101,14 +101,12 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Main Image Slider ImageView | id mainImgSlider-->
+    <!-- Main Image Slider ViewPager | id mainImgSlider-->
     <style name="mainImgSlider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeightImages</item>
         <item name="android:paddingTop">@dimen/mainImgSliderPadding</item>
-        <item name="android:src">@drawable/imgslider1</item>
-        <item name="android:scaleType">fitXY</item>
     </style>
 
 

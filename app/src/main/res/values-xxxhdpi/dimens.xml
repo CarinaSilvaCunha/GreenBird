@@ -4,9 +4,10 @@
 	<dimen name="mainLayoutWeightLogo">2</dimen>
 	<dimen name="mainLayoutWeightImages">4</dimen>
 	<dimen name="mainLinksHorizontalWeight">4</dimen>
-	<dimen name="mainFlavorTextSize">26.7sp</dimen>
+	<dimen name="mainBusinessDescriptionSize">26.7sp</dimen>
 	<dimen name="mainCompanyNameText">53.3sp</dimen>
 	<dimen name="mainCompanyNameTextMargin">17.5dp</dimen>
 	<dimen name="mainHorizontalIconPadding">12.5dp</dimen>
 	<dimen name="mainHorizontalLinkTextSize">24sp</dimen>
+	<dimen name="mainImgSliderPadding">6.2dp</dimen>
 </resources>
