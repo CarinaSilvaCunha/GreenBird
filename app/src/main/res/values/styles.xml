@@ -5,7 +5,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
 
-    <!-- Main Layout -->
+    <!-- Main Layout | id mainLayout -->
     <style name="mainLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -13,21 +13,21 @@
         <item name="android:background">@color/mainBackgroundColor</item>
     </style>
 
-    <!-- Main Image Logo ImageView -->
+    <!-- Main Image Logo ImageView | id mainImgLogo -->
     <style name="mainImgLogo">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/mainLayoutHeight</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeightLogo</item>
         <item name="android:src">@drawable/greenbirdlogo</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">@dimen/mainLayoutMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/mainLayoutMarginBottom</item>
 
     </style>
 
-    <!-- Main Business Description Text TextView | id mainBusinessDescription -->
+    <!-- Main Business Description Text TextView | id mainBusinessDescriptionText -->
     <style name="mainBusinessDescriptionText">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/mainLayoutHeight</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
         <item name="android:background">@color/mainBusinessDescriptionTextBG</item>
         <item name="android:text">@string/mainBusinessDescription</item>
@@ -37,10 +37,10 @@
         <item name="android:textColor">@color/mainBusinessDescriptionText</item>
     </style>
 
-    <!-- Main Company Name: Green Bird TextView -->
-    <style name="mainCompanyNameText">
+    <!-- Main Company Name: Green Bird TextView | id mainCompanyText -->
+    <style name="mainCompanyText">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/mainCompanyNameTextHeight</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
         <item name="android:text">@string/mainCompanyNameText</item>
         <item name="android:fontFamily">@font/eraslght</item>
@@ -50,36 +50,36 @@
         <item name="android:layout_marginLeft">@dimen/mainCompanyNameTextMargin</item>
     </style>
 
-    <!-- Main Horizontal Layouts -->
+    <!-- Main Horizontal Layouts | id mainHorizontalLayout -->
     <style name="mainHorizontalLayout">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/mainHorizontalLayoutHeight</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Main Facebook icon ImageView -->
-    <style name="mainFacebookImageView">
-        <item name="android:layout_width">0dp</item>
+    <!-- Main Facebook icon ImageView | id mainFacebookIcon -->
+    <style name="mainFacebookIcon">
+        <item name="android:layout_width">@dimen/mainImageViewsHeight</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:padding">@dimen/mainHorizontalIconPadding</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
         <item name="android:src">@drawable/facebookicon</item>
     </style>
 
-    <!-- Main Messenger icon ImageView -->
-    <style name="mainMessengerImageView">
-        <item name="android:layout_width">0dp</item>
+    <!-- Main Messenger icon ImageView | id mainMessengerIcon -->
+    <style name="mainMessengerIcon">
+        <item name="android:layout_width">@dimen/mainImageViewsHeight</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:padding">@dimen/mainHorizontalIconPadding</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeight</item>
         <item name="android:src">@drawable/messengericon</item>
     </style>
 
-    <!-- Main Horizontal TextView | id mainFacebookTextView-->
-    <style name="mainFacebookTextView">
-        <item name="android:layout_width">0dp</item>
+    <!-- Main Horizontal TextView | id mainFacebookText-->
+    <style name="mainFacebookText">
+        <item name="android:layout_width">@dimen/mainTextViewsHeight</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">@dimen/mainLinksHorizontalWeight</item>
         <item name="android:text">@string/mainFacebookLink</item>
@@ -89,9 +89,9 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <!-- Main Horizontal TextView  | id mainMessengerTextView-->
-    <style name="mainMessengerTextView">
-        <item name="android:layout_width">0dp</item>
+    <!-- Main Horizontal TextView  | id mainMessengerText-->
+    <style name="mainMessengerText">
+        <item name="android:layout_width">@dimen/mainTextViewsHeight</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">@dimen/mainLinksHorizontalWeight</item>
         <item name="android:text">@string/mainMessengerLink</item>
@@ -104,7 +104,7 @@
     <!-- Main Image Slider ViewPager | id mainFrameSlider-->
     <style name="mainFrameSlider">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/mainFrameSliderHeight</item>
         <item name="android:layout_weight">@dimen/mainLayoutWeightImages</item>
         <item name="android:paddingTop">@dimen/mainFrameSliderPadding</item>
         <item name="android:orientation">horizontal</item>
@@ -114,6 +114,28 @@
     <style name="mainImgSlider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Main Image Slider Right Arrow | id mainSliderRightArrow-->
+    <style name="mainSliderRightArrow">
+        <item name="android:layout_width">@dimen/mainFrameSliderLayoutWidth</item>
+        <item name="android:layout_height">@dimen/mainFrameSliderLayoutHeight</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">@dimen/mainFrameSliderLayoutMargin</item>
+        <item name="android:background">@color/mainSliderArrowBG</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/rightsliderarrow</item>
+    </style>
+
+    <!-- Main Image Slider Left Arrow | id mainSliderLeftArrow-->
+    <style name="mainSliderLeftArrow">
+        <item name="android:layout_width">@dimen/mainFrameSliderLayoutWidth</item>
+        <item name="android:layout_height">@dimen/mainFrameSliderLayoutHeight</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_marginLeft">@dimen/mainFrameSliderLayoutMargin</item>
+        <item name="android:background">@color/mainSliderArrowBG</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/leftsliderarrow</item>
     </style>
 
 

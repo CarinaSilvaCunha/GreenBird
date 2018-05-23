@@ -15,38 +15,43 @@
 
     <TextView
         android:id="@id/mainCompanyText"
-        style="@style/mainCompanyNameText" />
+        style="@style/mainCompanyText" />
 
-    <LinearLayout style="@style/mainHorizontalLayout">
+    <LinearLayout
+        android:id="@id/mainHorizontalLayout"
+        style="@style/mainHorizontalLayout">
 
         <ImageView
             android:id="@id/mainFacebookIcon"
-            style="@style/mainFacebookImageView" />
+            style="@style/mainFacebookIcon" />
 
         <TextView
-            android:id="@id/mainCompanyNameText"
-            style="@style/mainFacebookTextView"
+            android:id="@id/mainFacebookText"
+            style="@style/mainFacebookText"
             android:onClick="onLinkClick"
             android:tag="http://www.facebook.com/GreenBirdCreations" />
 
     </LinearLayout>
 
-    <LinearLayout style="@style/mainHorizontalLayout">
+    <LinearLayout
+        android:id="@id/mainHorizontalLayout"
+        style="@style/mainHorizontalLayout">
 
         <ImageView
             android:id="@id/mainMessengerIcon"
-            style="@style/mainMessengerImageView" />
+            style="@style/mainMessengerIcon" />
 
         <TextView
             android:id="@id/mainMessengerText"
-            style="@style/mainMessengerTextView"
+            style="@style/mainMessengerText"
             android:onClick="onMessengerClick"
-            android:tag="fb-messenger://user/"
-            android:text="@string/mainMessengerLink" />
+            android:tag="fb-messenger://user/" />
 
     </LinearLayout>
 
-    <FrameLayout style="@style/mainFrameSlider">
+    <FrameLayout
+        android:id="@id/mainFrameSlider"
+        style="@style/mainFrameSlider">
 
         <android.support.v4.view.ViewPager
             android:id="@id/mainImgSlider"
@@ -54,26 +59,14 @@
 
         <ImageButton
             android:id="@id/mainSliderRightArrow"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center_vertical|right"
-            android:layout_marginRight="5dp"
-            android:background="#00000000"
+            style="@style/mainSliderRightArrow"
             android:onClick="ArrowClick"
-            android:scaleType="fitXY"
-            android:src="@drawable/rightsliderarrow"
             android:tag="ViewPager.FOCUS_RIGHT" />
 
         <ImageButton
             android:id="@id/mainSliderLeftArrow"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center_vertical|left"
-            android:layout_marginLeft="5dp"
-            android:background="#00000000"
+            style="@style/mainSliderLeftArrow"
             android:onClick="ArrowClick"
-            android:scaleType="fitXY"
-            android:src="@drawable/leftsliderarrow"
             android:tag="ViewPager.FOCUS_LEFT" />
 
 

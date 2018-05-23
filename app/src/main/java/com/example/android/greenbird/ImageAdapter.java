@@ -1,22 +1,23 @@
-// Code was based on http://www.thetechnologyupdates.com/tutorial-to-swipe-images-in-android-application/, but altered
-// updated code and added arrows
+// Code was based on http://www.thetechnologyupdates.com/tutorial-to-swipe-images-in-android-application/, but altered by Carina Cunha
+// updated code and added arrows to swipe through views
 
 package com.example.android.greenbird;
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-public class ImageAdapter extends PagerAdapter {
+class ImageAdapter extends PagerAdapter {
 
-    Context context;
+    private final Context context;
 
     ImageAdapter(Context context){
         this.context=context;
     }
 
-    private int[] imageSlider = new int[] {
+    private final int[] imageSlider = new int[]{
             R.drawable.imgslider1,
             R.drawable.imgslider2,
             R.drawable.imgslider3,
@@ -28,12 +29,13 @@ public class ImageAdapter extends PagerAdapter {
     }
 
     @Override
-    public boolean isViewFromObject(View view, Object object) {
+    public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
         return view == (object);
     }
 
+    @NonNull
     @Override
-    public Object instantiateItem(ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull ViewGroup container, int position) {
         ImageView imageView = new ImageView(context);
         imageView.setImageResource(imageSlider[position]);
         (container).addView(imageView, 0);
@@ -42,7 +44,7 @@ public class ImageAdapter extends PagerAdapter {
     }
 
     @Override
-    public void destroyItem(ViewGroup container, int position, Object object) {
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
         (container).removeView((ImageView) object);
     }
 

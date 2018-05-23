@@ -3,26 +3,22 @@
     <!-- These are color for the layout theme
     colorPrimary -  The color of the app bar.
     colorPrimaryDark - The color of the status bar and contextual app bars; this is normally a dark version of colorPrimary.
+    id mainLayout
     -->
     <color name="colorPrimary">#000</color>
     <color name="colorPrimaryDark">#000</color>
 
-    <!-- Main Activity Layout Colors -->
+    <!-- Main Activity Layout Colors | id mainLayout -->
     <color name="mainBackgroundColor">#fff</color>
 
-    <!-- Main Business Description Text Colors | id mainBusinessDescription -->
+    <!-- Main Business Description Text Colors | id mainBusinessDescriptionText -->
     <color name="mainBusinessDescriptionTextBG">#aed47b</color>
     <color name="mainBusinessDescriptionText">#ffffff</color>
 
-    <!-- Main Company Name Text Colors | id mainCompanyNameText -->
+    <!-- Main Company Name Text Colors | id mainCompanyText // mainFacebookText // mainMessengerText -->
     <color name="mainCompanyNameText">#aed47b</color>
 
-    <color name="mainBackgroundColor3">#ffcc99</color>
-    <color name="mainBackgroundColor4">#ff6699</color>
-    <color name="mainBackgroundColor5">#660066</color>
-    <color name="mainBackgroundColor6">#9999ff</color>
-    <color name="mainBackgroundColor7">#00ffff</color>
-    <color name="mainBackgroundColor8">#00ff00</color>
-
+    <!-- Main Image Slider Arrows | id mainSliderRightArrow // mainSliderLeftArrow-->
+    <color name="mainSliderArrowBG">#00000000</color>
 
 </resources>

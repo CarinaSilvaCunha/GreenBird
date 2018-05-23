@@ -5,12 +5,14 @@
     <item name="mainBusinessDescriptionText" type="id" />
     <item name="mainCompanyText" type="id" />
     <item name="mainCompanyNameText" type="id" />
+    <item name="mainHorizontalLayout" type="id" />
+    <item name="mainHorizontalSecLayout" type="id" />
     <item name="mainFacebookIcon" type="id" />
     <item name="mainFacebookText" type="id" />
     <item name="mainMessengerIcon" type="id" />
     <item name="mainMessengerText" type="id" />
+    <item name="mainFrameSlider" type="id" />
     <item name="mainImgSlider" type="id" />
     <item name="mainSliderRightArrow" type="id" />
     <item name="mainSliderLeftArrow" type="id" />
-
 </resources>

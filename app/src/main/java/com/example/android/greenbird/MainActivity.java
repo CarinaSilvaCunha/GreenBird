@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Intent openURL = new Intent(Intent.ACTION_VIEW);
         openURL.setData(Uri.parse(destinationUri));
         startActivity(openURL);
-        Toast.makeText(this, "A abrir página...", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.onLinkClickToast, Toast.LENGTH_LONG).show();
     }
 
     // On buttons that onclick call this method, will check the messenger pack and call
@@ -45,12 +45,14 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             startActivity(intent);
-            Toast.makeText(this, "A abrir conversa...", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onMessengerClickOpen, Toast.LENGTH_LONG).show();
         } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(this, "Por favor instale o facebook Messenger", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onMessengerClickError, Toast.LENGTH_LONG).show();
         }
     }
 
+    //On Arrow click, swipe left or right
+    //If something happens show text saying to please swipe
     public void ArrowClick(View v) {
         ViewPager viewPager = findViewById(R.id.mainImgSlider);
         String arrowDirection = (String) v.getTag();
@@ -60,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (arrowDirection.equals("ViewPager.FOCUS_LEFT")) {
             viewPager.arrowScroll(ViewPager.FOCUS_LEFT);
         } else {
-            Toast.makeText(this, "Faça Swipe para mostrar...", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.onArrowClick, Toast.LENGTH_LONG).show();
         }
 
 

@@ -1,13 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Dimensions that are the same for every screen size -->
+    <!--Dimensions for the Main Layout Weight | id: mainHorizontalLayout // mainBusinessDescriptionText // mainCompanyText // mainFacebookIcon // mainMessengerIcon -->
 	<dimen name="mainLayoutWeight">1</dimen>
+
+    <!--Dimensions for the Main Layout Height | id: mainHorizontalLayout  -->
+    <dimen name="mainHorizontalLayoutHeight">0dp</dimen>
+
+    <!-- Main Image Logo ImageView | id mainImgLogo -->
 	<dimen name="mainLayoutWeightLogo">2</dimen>
+    <dimen name="mainLayoutHeight">0dp</dimen>
+
+    <!--Dimensions for the images logo | id mainFrameSlider-->
 	<dimen name="mainLayoutWeightImages">4</dimen>
+
+    <!--Dimensions for the Main Layout Links Horizontal Weight | id  mainFacebookText // mainMessengerText-->
 	<dimen name="mainLinksHorizontalWeight">4</dimen>
+
+    <!-- Dimensions for the main company name Text | id mainCompanyText -->
+    <dimen name="mainCompanyNameTextHeight">0dp</dimen>
+
+    <!-- Main Horizontal Layout ImageView | id mainFacebookIcon // mainMessengerIcon -->
+    <dimen name="mainImageViewsHeight">0dp</dimen>
+
+    <!-- Main Horizontal TextView | id mainFacebookText // mainMessengerText -->
+    <dimen name="mainTextViewsHeight">0dp</dimen>
+
+    <!-- Main Slider View | id mainFrameSlider -->
+    <dimen name="mainFrameSliderHeight">0dp</dimen>
+
+
+    <!-- Dimensions that are different for every screen size -->
+    <!-- Main Image Logo ImageView | id mainImgLogo -->
+    <dimen name="mainLayoutMarginTop">7.5dp</dimen>
+    <dimen name="mainLayoutMarginBottom">7.5dp</dimen>
+
+    <!-- Main Business Description Text TextView | id mainBusinessDescriptionText -->
 	<dimen name="mainBusinessDescriptionSize">13.3sp</dimen>
+
+    <!-- Main Company Text TextView | id mainCompanyText -->
 	<dimen name="mainCompanyNameText">26.7sp</dimen>
 	<dimen name="mainCompanyNameTextMargin">10.5dp</dimen>
+
+    <!-- Main Horizontal Layout ImageView | id mainFacebookIcon // mainMessengerIcon -->
 	<dimen name="mainHorizontalIconPadding">7.5dp</dimen>
+
+    <!-- Main Horizontal Layout TextView | id mainFacebookText // mainMessengerText -->
 	<dimen name="mainHorizontalLinkTextSize">12sp</dimen>
-	<dimen name="mainImgSliderPadding">3.7dp</dimen>
+
+    <!-- Main Slider View | id mainFrameSlider -->
+    <dimen name="mainFrameSliderPadding">3.7dp</dimen>
+
+    <!-- Main Slider Arrows | id mainSliderRightArrow // mainSliderLeftArrow-->
+    <dimen name="mainFrameSliderLayoutWidth">18.7dp</dimen>
+    <dimen name="mainFrameSliderLayoutHeight">18.7dp</dimen>
+    <dimen name="mainFrameSliderLayoutMargin">3.7dp</dimen>
 </resources>
